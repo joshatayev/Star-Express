@@ -1,0 +1,1418 @@
+* {
+  border: 0 ;
+  margin: 0 ;
+  padding: 0 ;
+  text-decoration: none !important; 
+  appearance: none ;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-nav {
+  background: #26247b;
+  width: 100%;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-nav .information  {
+  height: 40px;
+  width: 1132px;
+
+  margin: 0 calc((100%-1140px) / 2);
+  background: #26247b;
+  display: flex;
+  color: white;
+  font-size: 13px;
+}
+
+.first-nav .information .contact-information  {
+  height: 40px;
+  width: 1132px;
+  padding: 16px 8px;
+
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 13px;
+  min-width: 880px;
+  display: flex;
+}
+
+.first-nav .information .contact-information .left-contact-information {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.first-nav .information .contact-information .left-contact-information .phone-number {
+  margin: 0 20px 0 20px;
+}
+
+.first-nav .information .contact-information .left-contact-information .mail {
+  margin: 0 20px 0 20px;
+}
+
+.first-nav .information .contact-information .left-contact-information .address {
+  margin: 0 20px 0 20px;
+}
+
+.first-nav .information .contact-information .right-contact-information
+ {
+  margin-left: 375.675px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 283.237px;
+}
+
+
+
+.first-nav .information .contact-information .left-contact-information i {
+  color: white;
+  font-size: 13px;
+  transform: scale(1.2);
+  padding: 0px 5px 0 0;
+  margin: 5px 0 0px 0;
+}
+
+.first-nav .information .contact-information .right-contact-information i {
+  color: white;
+  font-size: 20px;
+}
+
+.first-nav .information .contact-information .right-contact-information .linkedin {
+  width: 20px;
+  margin: 0 14px 0 34px !important;
+}
+.first-nav .information .contact-information .right-contact-information .instagram {
+  width: 20px;
+  margin: 0 14px 0 34px !important;
+}
+.first-nav .information .contact-information .right-contact-information .facebook {
+  width: 20px;
+  margin: 0 14px 0 34px !important;
+}
+
+.first-nav .information .contact-information .right-contact-information .languages button {
+  background-color: #26247b;
+  position: relative;
+
+  height: 40px;
+  width: 40px;
+  margin: 0 0px 0 14px;
+  border-color: #26247b;
+}
+
+ .first-nav .information .contact-information .right-contact-information .languages button:hover {
+  color: red;
+  background-color: #26247b;
+  border-color: #26247b;
+}
+
+.first-nav .information .contact-information .right-contact-information .btn-check:active+.btn-secondary, .btn-check:checked+.btn-secondary, .btn-secondary.active, .btn-secondary:active, .show>.btn-secondary.dropdown-toggle{  background-color: #26247B;
+background-color: #26247B !important;
+color: #ffffff !important;
+border-color: #26247b !important  ;
+}
+
+.first-nav .information .contact-information .right-contact-information .btn-check:active+.btn-secondary:focus, .btn-check:checked+.btn-secondary:focus, .btn-secondary.active:focus, .btn-secondary:active:focus, .show>.btn-secondary.dropdown-toggle:focus {
+  box-shadow: none !important;
+}
+
+.first-nav .information .contact-information .right-contact-information .btn-check:focus+.btn-secondary, .btn-secondary:focus {
+  box-shadow: none !important ;
+  background-color: #26247b !important;
+  border-color: #26247b !important;
+}
+
+.first-nav .information .contact-information .right-contact-information .dropdown-menu.show {
+  transform: translate3d(1180px, 48px, 0px) !important;
+}
+
+
+.first-nav .information .contact-information .right-contact-information .dropdown-menu .eng , .aze , .turk , .rus {
+  color: black !important;
+  display: block;
+  padding: 5px 0 5px 25px;
+  
+}
+
+
+.first-nav .information .contact-information .right-contact-information .dropdown-menu .aze {
+  background-color: #ececff !important;
+}
+
+
+.first-nav .information .contact-information .right-contact-information .dropdown-menu .eng:hover , .aze:hover , .turk:hover , .rus:hover {
+  background-color:#ececff !important ;
+}
+
+
+.first-nav .information .contact-information .right-contact-information .dropdown-item.active, .dropdown-item:active {
+  color: black !important;
+  background-color: #ececff !important;
+}
+
+
+
+
+
+
+.second-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.second-nav .menu {
+  background-color: white;
+  height: 81px;
+  min-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.second-nav .menu .left-menu {
+  padding: 0 8px;
+}
+
+.second-nav .menu .left-menu .logo {
+  padding: 5px 0;
+  margin: 0 16px 0 0;
+}
+
+.second-nav .menu .right-menu {
+  display: flex;
+  font-weight: 500;
+  font-size: 17px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #0e0d2e;
+}
+
+.second-nav .menu .right-menu a:link {
+  color: #0e0d2e;
+}
+
+.second-nav .menu .right-menu a:visited {
+  color: #0e0d2e;
+}
+
+.second-nav .menu .right-menu a {
+  margin: 0 0 0 24px;
+  padding: 8px;
+}
+
+.second-nav .menu .right-menu .about:hover , .services:hover , .news:hover , .contact:hover {
+  color: #AB218E !important;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.main .shadow {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+
+  background: rgba(27, 25, 83, 0.37) ;
+}
+
+.main .background-image {
+  width: 100%;
+  height: 500px;
+  background: url(./track.png) no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.main .background-image .main-contact {
+  width: 1100px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.main .background-image .main-contact h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  z-index: 1;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.main .background-image .main-contact p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-shadow: 0px 2px 4px rgb(0 0 0 / 25%);
+  z-index: 1;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 24px 0;
+}
+
+.main .background-image .main-contact .contact-button-image {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  text-align: center;
+  background: #fff;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+.main .background-image .main-contact .contact-button-image button {
+  border: 1px solid #26247b;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  color: #26247b;
+  background: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.main .background-image .main-contact .contact-button-image button:hover {
+  color: #fff;
+  background: #26247b;
+}
+
+.total-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 24px 0;
+  margin: 16px 0;
+}
+
+.total-services .ourservices {
+  width: 100%;
+  height: 49px;
+  margin: 16px 0;
+  text-align: center;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  color: #26247b;
+}
+
+.total-services .services {
+  width: 100%;
+  max-width: 1140px;
+  height: 100%;
+  padding: 0 15px;
+  margin: 0 calc(100%-1140) / 2;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.total-services .services .a1 {
+  width: 555px;
+  height: 294px;
+  transition: 0.5s;
+}
+
+.total-services .services .a1:hover {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.24);
+}
+
+.total-services .services .a1 a {
+  display: inline-block;
+  width: 519px;
+  height: 214px;
+  margin: 40px 18px;
+}
+
+.total-services .services .a1 .left-right {
+  display: flex;
+  width: 479px;
+  height: 170px;
+  padding: 20px;
+}
+
+.total-services .services .a1 .left i {
+  display: block;
+  width: 170px;
+  height: 170px;
+  margin-right: 20px;
+}
+
+.total-services .services .right {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+}
+
+.total-services .services .right .first {
+  width: 289px;
+  height: 27px;
+  margin-bottom: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #210d27;
+}
+
+.total-services .services .right .second {
+  width: 289px;
+  height: 48px;
+  margin-bottom: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #0e0d2e;
+}
+
+.total-services .services .right .third {
+  display: flex;
+  justify-content: flex-start;
+  width: 289px;
+  height: 24px;
+  margin-bottom: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #200c26;
+}
+
+.total-services .services .a2 {
+  width: 555px;
+  height: 294px;
+}
+
+.total-services .services .a3 {
+  width: 555px;
+  height: 294px;
+}
+
+.total-services .services .a4 {
+  width: 555px;
+  height: 294px;
+}
+
+.total-services .services .a2 {
+  width: 555px;
+  height: 294px;
+  transition: 0.1s;
+}
+
+.total-services .services .a2:hover {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.24);
+}
+
+.total-services .services .a2 a {
+  display: inline-block;
+  width: 519px;
+  height: 214px;
+  margin: 40px 18px;
+}
+
+.total-services .services .a2 .left-right {
+  display: flex;
+  width: 479px;
+  height: 170px;
+  padding: 20px;
+}
+
+.total-services .services .a2 .left i {
+  display: block;
+  width: 170px;
+  height: 170px;
+  margin-right: 20px;
+}
+
+.total-services .services .right {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+}
+
+.total-services .services .a2 .right .first {
+  width: 289px;
+  height: 54px;
+  margin-bottom: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #210d27;
+}
+
+.total-services .services .right .second {
+  width: 289px;
+  height: 48px;
+  margin-bottom: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #0e0d2e;
+}
+
+.total-services .services .right .third {
+  display: flex;
+  justify-content: flex-start;
+  width: 289px;
+  height: 24px;
+  margin-bottom: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #200c26;
+}
+
+.total-services .services .a3 {
+  width: 555px;
+  height: 294px;
+  transition: 0.1s;
+}
+
+.total-services .services .a3:hover {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.24);
+}
+
+.total-services .services .a3 a {
+  display: inline-block;
+  width: 519px;
+  height: 214px;
+  margin: 40px 18px;
+}
+
+.total-services .services .a3 .left-right {
+  display: flex;
+  width: 479px;
+  height: 170px;
+  padding: 20px;
+}
+
+.total-services .services .a3 .left i {
+  display: block;
+  width: 170px;
+  height: 170px;
+  margin-right: 20px;
+}
+
+.total-services .services .right {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+}
+
+.total-services .services .right .first {
+  width: 289px;
+  height: 27px;
+  margin-bottom: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #210d27;
+}
+
+.total-services .services .right .second {
+  width: 289px;
+  height: 48px;
+  margin-bottom: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #0e0d2e;
+}
+
+.total-services .services .right .third {
+  display: flex;
+  justify-content: flex-start;
+  width: 289px;
+  height: 24px;
+  margin-bottom: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #200c26;
+}
+
+.total-services .services .a4 {
+  width: 555px;
+  height: 294px;
+  transition: 0.1s;
+}
+
+.total-services .services .a4:hover {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.24);
+}
+
+.total-services .services .a4 a {
+  display: inline-block;
+  width: 519px;
+  height: 214px;
+  margin: 40px 18px;
+}
+
+.total-services .services .a4 .left-right {
+  display: flex;
+  width: 479px;
+  height: 170px;
+  padding: 20px;
+}
+
+.total-services .services .a4 .left i {
+  display: block;
+  width: 170px;
+  height: 170px;
+  margin-right: 20px;
+}
+
+.total-services .services .right {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+}
+
+.total-services .services .right .first {
+  width: 289px;
+  height: 27px;
+  margin-bottom: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #210d27;
+}
+
+.total-services .services .right .second {
+  width: 289px;
+  height: 48px;
+  margin-bottom: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #0e0d2e;
+}
+
+.total-services .services .right .third {
+  display: flex;
+  justify-content: flex-start;
+  width: 289px;
+  height: 24px;
+  margin-bottom: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #200c26;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.star-express {
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+height: auto;
+flex-wrap: wrap !important;
+}
+
+
+.star-express .left-part {
+  width: 50%;
+  height: 517px;
+  background-color: #26247b;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+
+}
+
+.star-express .left-part .title {
+font-size: 33px;
+width: calc(100%-100px);
+height: 48px;
+font-weight: 600;
+margin: 15px 50px;
+
+}
+
+
+
+
+
+
+.star-express .left-part .title u {
+  text-decoration: underline !important; 
+  }
+
+
+  .star-express .left-part .content {
+    font-size: 20.8px;
+width: calc(100%-100px);
+height: auto;
+font-weight:330 ;
+margin: 15px 50px;
+    
+    }
+
+
+    .star-express .left-part .btn-addition {
+width: 100%;
+height: 50px;
+margin-top: 15px;
+    }
+
+    .star-express .left-part .btn-addition button {
+      height: 50px;
+      width: 173px;;
+      padding: 6px 12px;
+      border: 1px solid #26247b;
+      border-radius: 5px;
+      margin: 0 50px;      
+    }
+
+
+
+
+  .star-express .right-part {
+  width: 50%;
+  height: 517px;
+  background: url(./homeabout1.jpg) center  no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  
+}
+
+
+
+
+
+
+
+
+
+.international-transportations{
+
+  width: 100%;
+  height: 100%;
+  padding: 24px 0;
+  margin: 16px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+
+
+.international-transportations-title {
+  width: 100%;
+  height: 49px;
+  margin: 16px 0;
+  text-align: center;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  color: #26247b;
+}
+
+
+
+
+.international-transportations .transportation-section-1 {
+  width: 277.5px;
+  height: 429.9px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.international-transportations .transportation-section-1 .land-transportation {
+  height: 355.9px;
+  width: 255.5px;
+  border: 0.5px solid rgba(146, 141, 141, 0.589);
+border-radius: 5px;
+transition: .2s;
+}
+
+
+.international-transportations .transportation-section-1 .land-transportation .link {
+  height: 355.9px;
+  width: 255.5px;
+  
+}
+
+.international-transportations .transportation-section-1 .land-transportation:hover {
+
+
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.527);
+}
+
+
+.international-transportations .transportation-section-1 .land-transportation .link img {
+width: 254px;
+height: 200px;
+border-radius: 4px 4px 0 0 ;
+
+}
+
+.international-transportations .transportation-section-1 .land-transportation .body {
+width: 100%;
+height: 155.5px;
+  padding: 14px 16px;
+
+}
+
+
+
+
+.international-transportations .transportation-section-1 .land-transportation .link .title {
+font-size: 16px;
+font-weight: 600;
+color: #000;
+margin-bottom: 8px;
+
+
+}
+
+.international-transportations .transportation-section-1 .land-transportation .link .content {
+font-size: 15px;
+font-weight: 400;
+color: #000;
+margin-bottom: 8px;
+
+}
+
+.international-transportations .transportation-section-1 .land-transportation .link .more-information {
+  color: #000;
+  font-weight: 500;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.international-transportations .transportation-section-2 {
+  width: 277.5px;
+  height: 429.9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.international-transportations .transportation-section-2 .air-transportation {
+  height: 355.9px;
+  width: 255.5px;
+  border: 0.5px solid rgba(146, 141, 141, 0.589);
+border-radius: 5px;
+transition: .2s;
+}
+
+
+.international-transportations .transportation-section-2 .air-transportation .link {
+  height: 355.9px;
+  width: 255.5px;
+  
+}
+
+.international-transportations .transportation-section-2 .air-transportation:hover {
+
+
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.527);
+}
+
+
+.international-transportations .transportation-section-2 .air-transportation .link img {
+width: 254px;
+height: 200px;
+border-radius: 4px 4px 0 0 ;
+
+}
+
+.international-transportations .transportation-section-2 .air-transportation .body {
+width: 100%;
+height: 155.5px;
+  padding: 14px 16px;
+
+}
+
+
+
+
+.international-transportations .transportation-section-2 .air-transportation .link .title {
+font-size: 16px;
+font-weight: 600;
+color: #000;
+margin-bottom: 8px;
+
+
+}
+
+.international-transportations .transportation-section-2 .air-transportation .link .content {
+font-size: 15px;
+font-weight: 400;
+color: #000;
+margin-bottom: 8px;
+
+}
+
+.international-transportations .transportation-section-2 .air-transportation .link .more-information {
+  color: #000;
+  font-weight: 500;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.international-transportations .transportation-section-3 {
+  width: 277.5px;
+  height: 429.9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.international-transportations .transportation-section-3 .sea-transportation {
+  height: 355.9px;
+  width: 255.5px;
+  border: 0.5px solid rgba(146, 141, 141, 0.589);
+border-radius: 5px;
+transition: .2s;
+}
+
+
+.international-transportations .transportation-section-3 .sea-transportation .link {
+  height: 355.9px;
+  width: 255.5px;
+  
+}
+
+.international-transportations .transportation-section-3 .sea-transportation:hover {
+
+
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.527);
+}
+
+
+.international-transportations .transportation-section-3 .sea-transportation .link img {
+width: 254px;
+height: 200px;
+border-radius: 4px 4px 0 0 ;
+
+}
+
+.international-transportations .transportation-section-3 .sea-transportation .body {
+width: 100%;
+height: 155.5px;
+  padding: 14px 16px;
+
+}
+
+
+
+
+.international-transportations .transportation-section-3 .sea-transportation .link .title {
+font-size: 16px;
+font-weight: 600;
+color: #000;
+margin-bottom: 8px;
+
+
+}
+
+.international-transportations .transportation-section-3 .sea-transportation .link .content {
+font-size: 15px;
+font-weight: 400;
+color: #000;
+margin-bottom: 8px;
+
+}
+
+.international-transportations .transportation-section-3 .sea-transportation .link .more-information {
+  color: #000;
+  font-weight: 500;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.international-transportations .transportation-section-4 {
+  width: 277.5px;
+  height: 429.9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.international-transportations .transportation-section-4 .train-transportation {
+  height: 355.9px;
+  width: 255.5px;
+  border: 0.5px solid rgba(146, 141, 141, 0.589);
+border-radius: 5px;
+transition: .2s;
+}
+
+
+.international-transportations .transportation-section-4 .train-transportation .link {
+  height: 355.9px;
+  width: 255.5px;
+  
+}
+
+.international-transportations .transportation-section-4 .train-transportation:hover {
+
+
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.527);
+}
+
+
+.international-transportations .transportation-section-4 .train-transportation .link img {
+width: 254px;
+height: 200px;
+border-radius: 4px 4px 0 0 ;
+
+}
+
+.international-transportations .transportation-section-4 .train-transportation .body {
+width: 100%;
+height: 155.5px;
+  padding: 14px 16px;
+
+}
+
+
+
+
+.international-transportations .transportation-section-4 .train-transportation .link .title {
+font-size: 16px;
+font-weight: 600;
+color: #000;
+margin-bottom: 8px;
+
+
+}
+
+.international-transportations .transportation-section-4 .train-transportation .link .content {
+font-size: 15px;
+font-weight: 400;
+color: #000;
+margin-bottom: 8px;
+
+}
+
+.international-transportations .transportation-section-4 .train-transportation .link .more-information {
+  color: #000;
+  font-weight: 500;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.news-text {
+  width: 100%;
+  height: 49px;
+  margin: 16px 0;
+  text-align: center;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  color: #26247b;
+}
+
+
+.all-news {
+  width: 1086px;
+  height: 27px;
+  padding: 0 12px;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.all-news .all-news-link {
+  text-decoration: underline !important; 
+  color: #782B90;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.all-news .all-news-link:link {
+  color: #782B90;
+}
+
+.all-news .all-news-link:visited {
+  color: #782B90;
+}
+
+
+.card-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 1086px;
+  
+  margin: 16px 0;
+}
+
+.card-group .card-main {
+  
+  width: 362px;
+  height: 429px;
+}
+
+.card-group .card-img-top {
+  width: 344px;
+  height: 240px;
+  margin-bottom: 14px;
+  
+}
+
+.card-group .card {
+  
+  width: 344px;
+  height: 429px;
+  border: 1px solid #dfdfdf;
+  border-radius: 4px;
+  margin: 0 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.card-group .card .link {
+  
+  color: #000;
+}
+
+
+.card-main .card .card-body {
+  padding: 0;
+}
+
+
+.card-main .card .card-body .news-item-create-date {
+  font-size: 13px;
+  color: rgba(35, 29, 83, 0.485031);
+  padding: 0 20px;
+}
+
+.card-main .card .card-body .card-title {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0 20px;
+  margin: 2px 0 6px 0;
+}
+
+.card-main .card .card-body .card-text {
+  font-size: 14.5px;
+  font-weight: 400;
+  padding: 0 20px;
+  margin-bottom: 4px;
+}
+
+.card-main .card .card-body .card-text-arrow {
+  padding: 0 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+.who-can-be-partner  {
+  width: 100%;
+  height: 60px;
+  
+  text-align: center;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  color: #26247b;
+}
+
+
+#carouselExampleIndicators {
+  width: 1110px;
+  height: 176px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  transition: 5s ease;
+}
+
+
+.carousel-indicators {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 1110px;
+  height: 50px;
+  color: #26247b;
+  margin: 0 0 0 0 !important;
+  }
+
+#carouselExampleIndicators .carousel-indicators button {
+  width: 16px;
+  height: 16px;
+  margin: 0 7px;
+  border-radius: 50%;
+  background-color: transparent;
+
+}
+
+
+#carouselExampleIndicators .carousel-indicators [data-bs-target] {
+  border: 1px solid #26247b;
+  
+}
+
+#carouselExampleIndicators .carousel-indicators .active {
+  background-color: #26247b;
+}
+
+
+
+
+
+
+.carousel-inner {
+  width: 1110px;
+  height: 176px;
+  padding: 0 15px;
+  font-size: 20px;
+  color: #26247B;
+  font-weight: 400;
+}
+
+
+.footer {
+  width: 100%;
+  height: 216.5px;
+  background-color: #26247B;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.footer .body-footer {
+  width: 1110px;
+  height: 216.5px;
+  padding: 24px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  
+}
+
+.footer .body-footer .left-footer {
+  width:50%;
+}
+
+.footer .body-footer .left-footer .contact-information {
+  padding: 10px 0 0 0;
+  margin-bottom: 12px;
+}
+
+
+.footer .body-footer .left-footer .phone-number {
+margin: 0 0 12px 0 !important;
+font-weight: 350;
+font-size: 15px;
+}
+
+.footer .body-footer .left-footer .mail { 
+margin: 0 0 12px 0 !important;
+font-weight: 350;
+font-size: 15px;
+}
+
+.footer .body-footer .right-footer {
+  display: flex;
+  flex-direction: row;
+  width:50%;
+  
+}
+
+
+.footer .body-footer .right-footer .contact-items {
+  width: 185px;
+  height: 168.5px;
+  color: #fff;
+  
+}
+
+.footer .body-footer .right-footer .contact-items a{
+  
+  color: #fff;
+  
+}
+
+.footer .body-footer .right-footer .contact-items .about , .about-us , .services , .our-services , .contact , .our-offer {
+  margin-top: 12px;
+}
+
+.footer .body-footer .right-footer .contact-items .about-link:hover , .about-us-link:hover , .services-link:hover , .our-services-link:hover , .contact-link:hover , .our-offer-link:hover {
+  color: #AB218E !important;
+}
+
+.footer .body-footer .right-footer .contact-items .our-offer {
+  margin-bottom: 48px;
+}
+
+
+.right-footer .contact-items .social-media-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 24px;
+}
+
+
+.right-footer .contact-items .social-media-contact .linkedin , .instagram , .facebook {
+  margin: 0 15px 0 0px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
